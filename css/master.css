@@ -37,6 +37,9 @@ body{
 /* intro */
 .about-me{
   padding: 5%;
+  z-index: 2;
+  background-color: #fff;
+  position: sticky;
 }
 
 /* All Sections Here */
@@ -50,6 +53,8 @@ body{
 }
 .leftcell{
   border-right: #30E3CB  dashed 1px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Appointments */
