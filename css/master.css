@@ -52,9 +52,76 @@ body{
   border-right: #30E3CB  dashed 1px;
 }
 
-/* Education */
+/* Appointments */
+.appoint{
+  margin: 5% 0 5% 0;
+}
+.card-body .icon{
+  width:30%;
+  height:30%;
+}
 
+/* Research */
+.research{
+  margin: 5% 0 5% 0;
+}
 
+/* Skills */
+.skills{
+  margin: 5% 0 5% 0;
+  text-align: center;
+  background-color: #C1EAF2;
+  text-shadow: 0 0 5px grey;
+  padding: 1%;
+}
+
+/*Publications*/
+.pubs{
+  margin: 5% 0 5% 0;
+  text-align: left;
+}
+.pubs h2{
+  text-align: center;
+}
+.pubs h4{
+  text-align: center;
+}
+/*Service*/
+.serv{
+  margin: 5% 0 5% 0;
+  text-align: left;
+}
+.serv h2{
+  text-align: center;
+}
+.serv h4{
+  text-align: center;
+}
+
+/*Awards*/
+.awards{
+  margin: 5% 0 5% 0;
+  background-color: #C1EAF2;
+  text-shadow: 0 0 5px grey;
+  padding: 1%;
+}
+
+/*Presentations*/
+.prese{
+  margin: 5% 0 5% 0;
+  text-align: left;
+}
+.prese h2{
+  text-align: center;
+}
+.prese h4{
+  text-align: center;
+}
+
+/*Contact Me*/
+.contact-me{
+  margin: 5% 0 0 0;
+}
 /* divider */
 hr{
   border-style: none;
@@ -151,4 +218,15 @@ a:hover{
 .copyright{
   color:#EAF6F6;
   font-size: 0.75rem;
+}
+
+.footico i{
+  padding:0 3.2% 0 3.2%;
+}
+.footico i:hover{
+  color: #30E3CB;
+}
+
+.dropdown-menu{
+  text-align: left;
 }
