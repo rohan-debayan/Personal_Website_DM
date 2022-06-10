@@ -42,10 +42,7 @@ body{
   position: sticky;
 }
 
-/* All Sections Here */
-.middle-container{
-  padding: 5%;
-}
+
 
 /* Education */
 .edu{
@@ -54,6 +51,10 @@ body{
 .leftcell{
   border-right: #30E3CB  dashed 1px;
   display: flex;
+  justify-content: center;
+}
+.leftcellbot{
+  border-right: #30E3CB  dashed 1px;
   justify-content: center;
 }
 
@@ -234,4 +235,8 @@ a:hover{
 
 .dropdown-menu{
   text-align: left;
+}
+.middle-container{
+  background-color: #ffffff;
+  padding: 100px 0 20px;
 }
